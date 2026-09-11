@@ -25,6 +25,13 @@ Commands:
 - `/ecleanup`
 - `/clearentities`
 
+## Release
+
+Published release:
+
+- GitHub Release: https://github.com/BasperLasper/entityremover-crashprevent/releases/tag/v1.0.0
+- Download jar: https://github.com/BasperLasper/entityremover-crashprevent/releases/download/v1.0.0/EntityRemoverCrashPrevent-1.0.0.jar
+
 ## Build
 
 ```bash
@@ -35,6 +42,12 @@ The built jar will be created at:
 
 ```text
 target/EntityRemoverCrashPrevent-1.0.0.jar
+```
+
+A copy is also stored in:
+
+```text
+releases/EntityRemoverCrashPrevent-1.0.0.jar
 ```
 
 ## Configuration
