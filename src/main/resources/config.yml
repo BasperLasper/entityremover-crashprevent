@@ -1,0 +1,32 @@
+cleanup:
+  interval-seconds: 300
+  warnings:
+    enabled: true
+    times:
+      - 60
+      - 30
+      - 10
+      - 5
+      - 4
+      - 3
+      - 2
+      - 1
+  broadcast: true
+  worlds:
+    blacklist: []
+    whitelist: []
+    whitelist-enabled: false
+    blacklist-enabled: true
+  named-entities-protected: true
+  protected-entity-types:
+    - PLAYER
+    - ARMOR_STAND
+    - ITEM_FRAME
+    - GLOW_ITEM_FRAME
+    - PAINTING
+    - MARKER
+    - INTERACTION
+    - TEXT_DISPLAY
+    - ITEM_DISPLAY
+    - BLOCK_DISPLAY
+  cleanup-entity-types: []

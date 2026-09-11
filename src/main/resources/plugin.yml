@@ -1,0 +1,15 @@
+name: EntityRemoverCrashPrevent
+version: 1.0.0
+main: us.peakmc.entityremover.EntityRemoverCrashPrevent
+api-version: '1.21'
+description: Removes un-named entities and primed TNT to reduce lag and crash risk.
+commands:
+  entitycleanup:
+    description: Manually trigger the entity cleanup pass.
+    aliases: [ecleanup, clearentities]
+    usage: /entitycleanup
+    permission: entityremover.cleanup
+permissions:
+  entityremover.cleanup:
+    description: Allows players to run /entitycleanup manually.
+    default: op
